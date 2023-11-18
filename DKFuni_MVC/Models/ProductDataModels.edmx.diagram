@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7ebce94fc83b449bafb7ef02b0057d30" Name="Diagram1">
+        <EntityTypeShape EntityType="DKSHOP_DBModel.Category" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DKSHOP_DBModel.Order" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DKSHOP_DBModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DKSHOP_DBModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DKSHOP_DBModel.User" Width="1.5" PointX="6.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DKSHOP_DBModel.Product_Category" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DKSHOP_DBModel.FK__Product__ProCatI__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="DKSHOP_DBModel.FK__OrderDeta__Order__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="DKSHOP_DBModel.FK__OrderDeta__Produ__5070F446" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
